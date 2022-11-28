@@ -1,4 +1,8 @@
 import * as React from "react";
 export const Button = () => {
-  return <button>Boop</button>;
+  const handleClick = () => {
+    alert("hi");
+    console.log("Clicked !");
+  };
+  return <button onClick={handleClick}>i did a monorepo</button>;
 };
